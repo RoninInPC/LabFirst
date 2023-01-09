@@ -1,6 +1,7 @@
 #include<fstream>
 #include<iostream>
 #include<stack>
+#include<deque>
 #include<algorithm>
 #include<queue>
 #include"automat.h"

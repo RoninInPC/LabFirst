@@ -7,12 +7,16 @@
 class Automat 
 {
 private:
+	using SetStr = std::set<std::string>;
+
 	bool is_eps_ = false;
 	bool is_dka_ = true;
+
 	std::set<char> alphabet_;
 	std::map<std::string, std::map<char, std::set<std::string>>> body_;
 	std::string begin_condition_;
 	std::set<std::string> end_condition_;
+
 	void modernEE_(std::string begin);
 	void newEndCondition_();
 	void newConnection_();

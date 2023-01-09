@@ -363,7 +363,7 @@ std::string RegularExpression::gatherAns_(std::map<std::string, std::map<std::st
 		ans += "." + sumBtoB + "*";
 	}*/
 	
-	return ans;
+	/*return ans;*/
 }
 
 void RegularExpression::modificateCycle_(std::map<std::string, std::map<std::string, std::set<std::string>>>& body_arr, const std::string& condition, const std::string& deleting)
